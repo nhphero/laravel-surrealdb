@@ -34,7 +34,7 @@ composer require boone-studios/laravel-surrealdb
 If you are using an older version of Laravel that doesn't support autoloading packages, add the service provider to `config/app.php`:
 
 ```php
-BooneStudios\Surreal\SurrealServiceProvider::class
+Nhphero\Surreal\SurrealServiceProvider::class
 ```
 
 ### Lumen
@@ -42,7 +42,7 @@ BooneStudios\Surreal\SurrealServiceProvider::class
 Add the service provider to `bootstrap/app.php` in your project.
 
 ```php
-$app->register(BooneStudios\Surreal\SurrealServiceProvider::class);
+$app->register(Nhphero\Surreal\SurrealServiceProvider::class);
 ```
 
 ## Configuration
@@ -83,7 +83,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email support@boonestudios.org instead of using the issue tracker.
+If you discover any security related issues, please email support@Nhphero.org instead of using the issue tracker.
 
 ## Credits
 
