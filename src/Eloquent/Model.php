@@ -1,6 +1,6 @@
 <?php
 
-namespace BooneStudios\Surreal\Eloquent;
+namespace Nhphero\Surreal\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Database\Eloquent\Relations\Relation;

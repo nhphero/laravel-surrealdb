@@ -1,6 +1,6 @@
 <?php
 
-namespace BooneStudios\Surreal\Query;
+namespace Nhphero\Surreal\Query;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar as BaseGrammar;

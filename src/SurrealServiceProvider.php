@@ -1,8 +1,8 @@
 <?php
 
-namespace BooneStudios\Surreal;
+namespace Nhphero\Surreal;
 
-use BooneStudios\Surreal\Eloquent\Model;
+use Nhphero\Surreal\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 
 class SurrealServiceProvider extends ServiceProvider

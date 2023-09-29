@@ -1,6 +1,6 @@
 <?php
 
-namespace BooneStudios\Surreal;
+namespace Nhphero\Surreal;
 
 class Surreal
 {

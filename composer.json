@@ -1,5 +1,5 @@
 {
-    "name": "boone-studios/laravel-surrealdb",
+    "name": "nhphero/laravel-surrealdb",
     "description": "Integrates SurrealDB with the Laravel framework",
     "license": "MIT",
     "type": "library",
@@ -17,9 +17,14 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/boone-studios/laravel-surrealdb",
+    "homepage": "https://github.com/nhphero/laravel-surrealdb",
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "*",
+        "illuminate/container": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/events": "^10.0",
+        "illuminate/support": "^10.0"
     },
     "require-dev": {
         "doctrine/dbal": "^2.13.3 || ^3.1.4",
@@ -49,7 +54,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BooneStudios\\Surreal\\SurrealServiceProvider"
+                "Nhphero\\Surreal\\SurrealServiceProvider"
             ]
         }
     },

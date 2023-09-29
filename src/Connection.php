@@ -1,6 +1,6 @@
 <?php
 
-namespace BooneStudios\Surreal;
+namespace Nhphero\Surreal;
 
 use GuzzleHttp\Client as GuzzleClient;
 use Illuminate\Database\Connection as BaseConnection;

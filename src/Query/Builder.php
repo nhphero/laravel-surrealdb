@@ -1,8 +1,8 @@
 <?php
 
-namespace BooneStudios\Surreal\Query;
+namespace Nhphero\Surreal\Query;
 
-use BooneStudios\Surreal\Connection;
+use Nhphero\Surreal\Connection;
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;
 
